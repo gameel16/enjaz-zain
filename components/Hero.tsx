@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           <div className="text-right">
             <div className="inline-flex items-center gap-2 bg-blue-800/50 border border-blue-700 text-yellow-400 px-4 py-2 rounded-full text-sm font-bold mb-6 animate-bounce">
               <CheckCircle2 size={16} />
-              تقديم طلباتك إلكترونياً بأعلى معايير الدقة
+              دقة متناهية في تقديم الطلبات ومتابعتها
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
               ننجز معاملاتكم <br /> 
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-blue-900/20 to-transparent"></div>
                 <div className="absolute bottom-6 right-6 left-6 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/10">
                   <p className="text-white text-sm font-medium leading-relaxed italic">
-                    "نعتمد على أحدث التقنيات لمتابعة طلبات المشتركين وضمان سرعة الاستجابة من الجهات المعنية."
+                    "نلتزم بأقصى درجات الدقة في مراجعة وتقديم طلباتكم إلكترونياً، مع متابعة لحظية لضمان القبول الفوري وتفادي أي ملاحظات فنية."
                   </p>
                 </div>
              </div>
