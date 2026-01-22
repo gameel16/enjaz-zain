@@ -17,14 +17,14 @@ const Hero: React.FC = () => {
           <div className="text-right">
             <div className="inline-flex items-center gap-2 bg-blue-800/50 border border-blue-700 text-yellow-400 px-4 py-2 rounded-full text-sm font-bold mb-6 animate-bounce">
               <CheckCircle2 size={16} />
-              نتقن عمل تقديم طلبات الكهرباء بكل دقة
+              تقديم طلباتك إلكترونياً بأعلى معايير الدقة
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-              ننجز أعمالكم الكهربائية <br /> 
-              <span className="text-yellow-400">بسرعة واحترافية</span>
+              ننجز معاملاتكم <br /> 
+              <span className="text-yellow-400">بضغطة زر واحترافية</span>
             </h1>
             <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-xl leading-relaxed">
-              مكتب إنجاز زين متخصص في تنفيذ ومتابعة طلبات الكهرباء وفق أعلى المعايير الفنية والأنظمة المعتمدة. خبرة تتجاوز 9 سنوات في خدمتك.
+              مكتب إنجاز زين متخصص في إدارة ومتابعة الطلبات عبر بوابة الشركة السعودية للكهرباء. نضمن لك سير المعاملة بشكل صحيح ومنظم دون عناء.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
                 target="_blank" 
                 className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3 hover:bg-yellow-500 transition-all shadow-lg hover:shadow-yellow-400/20 transform hover:-translate-y-1"
               >
-                طلب خدمة سريعة
+                اطلب خدمتك الآن
                 <ArrowLeft size={20} />
               </a>
               <a 
@@ -51,28 +51,33 @@ const Hero: React.FC = () => {
               </div>
               <div className="h-10 w-px bg-blue-800"></div>
               <div>
-                <div className="text-3xl font-bold text-white">2017</div>
-                <div className="text-blue-300 text-sm">تاريخ التأسيس</div>
+                <div className="text-3xl font-bold text-white">إلكتروني</div>
+                <div className="text-blue-300 text-sm">خدمة عن بُعد</div>
               </div>
               <div className="h-10 w-px bg-blue-800"></div>
               <div>
                 <div className="text-3xl font-bold text-white">100%</div>
-                <div className="text-blue-300 text-sm">التزام بالضوابط</div>
+                <div className="text-blue-300 text-sm">إنجاز مضمون</div>
               </div>
             </div>
           </div>
 
           <div className="hidden lg:block relative">
-             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 transform rotate-2">
+             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20 transform rotate-2">
                 <img 
-                  src="https://picsum.photos/seed/electrician/800/1000" 
-                  alt="Enjaz Zain Professional Services" 
-                  className="w-full h-auto"
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" 
+                  alt="Digital Service Management" 
+                  className="w-full h-[600px] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-blue-900/60 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-blue-900/20 to-transparent"></div>
+                <div className="absolute bottom-6 right-6 left-6 p-6 bg-white/10 backdrop-blur-md rounded-2xl border border-white/10">
+                  <p className="text-white text-sm font-medium leading-relaxed italic">
+                    "نعتمد على أحدث التقنيات لمتابعة طلبات المشتركين وضمان سرعة الاستجابة من الجهات المعنية."
+                  </p>
+                </div>
              </div>
              {/* Decorative Elements */}
-             <div className="absolute -top-6 -left-6 w-32 h-32 bg-yellow-400 rounded-full z-0 opacity-50 blur-3xl"></div>
+             <div className="absolute -top-6 -left-6 w-32 h-32 bg-yellow-400 rounded-full z-0 opacity-40 blur-3xl"></div>
              <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-500 rounded-full z-0 opacity-30 blur-3xl"></div>
           </div>
         </div>
